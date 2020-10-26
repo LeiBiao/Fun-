@@ -1,0 +1,61 @@
+.login .container {
+  height: 500px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#292929), to(#343A40));
+  background-image: linear-gradient(to bottom, #292929, #343A40);
+}
+
+.login .container h3 {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+}
+
+.login .container .login-border {
+  position: relative;
+  margin: 0 auto;
+  width: 50%;
+  height: 300px;
+  border: 1px solid #c3c3c3;
+  border-radius: 50px;
+}
+
+.login .container .login-border #uname,
+.login .container .login-border #upwd,
+.login .container .login-border .btn1,
+.login .container .login-border .btn2 {
+  padding-left: 10px;
+  width: 60%;
+  height: 35px;
+  border-radius: 30px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.login .container .login-border #upwd {
+  top: 35%;
+}
+
+.login .container .login-border .btn1 {
+  padding: 0;
+  top: 60%;
+  left: 30%;
+  width: 20%;
+  font-size: 16px;
+}
+
+.login .container .login-border .btn2 {
+  padding: 0;
+  top: 60%;
+  left: 70%;
+  width: 20%;
+}
+
+.login .container .login-border .btn2 a {
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+}
+/*# sourceMappingURL=login.css.map */

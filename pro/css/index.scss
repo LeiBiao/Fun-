@@ -1,0 +1,67 @@
+@import "media";
+// 页面元素rem计算公式： 页面元素的px / html 字体大小 50
+$htmlFont: 50;
+@media (max-width: 767px) {
+    .floor-left li {
+        width: 50%;
+    }
+}
+
+// 楼层
+section {
+    .container {
+        background: #292929;
+        .floor-left,
+        .floor-two {
+            padding: 0 20px !important;
+            h5 {
+                margin-left: 20px;
+                height: 60px;
+                border-bottom: 1px solid #ccc;
+                line-height: 60px;
+                font-size: 20px;
+            }
+            ul li {
+                // margin-bottom: 10px;
+                text-align: center;
+                a {
+                    text-decoration-color: white;
+                    p {
+                        padding: 5px 0;
+                        color: #fff;
+                        font-size: 18rem/$htmlFont;
+                    }
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .floor-left {
+            ul li a img {
+                &:hover {
+                    animation: headShake 1s;
+                }
+            }
+        }
+        .floor-right {
+            h5 {
+                // margin: 0;
+                height: 60px;
+                border-bottom: 1px solid #ccc;
+                line-height: 60px;
+                font-size: 20px;
+            }
+            ul li {
+                padding-bottom: 20px;
+                a {
+                    color: #fff;
+                    font-size: 14rem/$htmlFont;
+                    &:hover {
+                        color: #9CDCFE;
+                    }
+                }
+            }
+        }
+    }
+}

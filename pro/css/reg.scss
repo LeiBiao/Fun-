@@ -1,0 +1,66 @@
+        .reg {
+            .container {
+                height: 650px;
+                background-image: linear-gradient(to bottom, #292929, #343A40);
+                h3 {
+                    text-align: center;
+                    color: #fff;
+                    font-size: 40px;
+                }
+                .login-border {
+                    position: relative;
+                    margin: 0 auto;
+                    width: 50%;
+                    height: 400px;
+                    border: 1px solid #c3c3c3;
+                    border-radius: 50px;
+                    #uname,
+                    #upwd,
+                    #email,
+                    #phone,
+                    #user_name,
+                    .btn,
+                    .msg {
+                        padding-left: 10px;
+                        width: 60%;
+                        height: 35px;
+                        border-radius: 30px;
+                        position: absolute;
+                        left: 50%;
+                        transform: translateX(-50%);
+                    }
+                    #uname {
+                        top: 10%;
+                    }
+                    #upwd {
+                        top: 21%;
+                    }
+                    #email {
+                        top: 32%;
+                    }
+                    #phone {
+                        top: 43%
+                    }
+                    #user_name {
+                        top: 54%;
+                    }
+                    .btn {
+                        outline: none;
+                        padding: 0;
+                        top: 70%;
+                        width: 20%;
+                        font-size: 16px;
+                    }
+                    .msg {
+                        top: 85%;
+                        text-align: center;
+                    }
+                    .msg_wrong {
+                        // top: 85%;
+                        // text-align: center;
+                        font-size: 16px;
+                        color: red;
+                    }
+                }
+            }
+        }

@@ -1,0 +1,55 @@
+.login {
+    .container {
+        height: 500px;
+        background-image: linear-gradient(to bottom, #292929, #343A40);
+        h3 {
+            text-align: center;
+            color: #fff;
+            font-size: 40px;
+        }
+        .login-border {
+            position: relative;
+            margin: 0 auto;
+            width: 50%;
+            height: 300px;
+            border: 1px solid #c3c3c3;
+            border-radius: 50px;
+            #uname,
+            #upwd,
+            .btn1,
+            .btn2 {
+                padding-left: 10px;
+                width: 60%;
+                height: 35px;
+                border-radius: 30px;
+                position: absolute;
+                top: 20%;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            #upwd {
+                top: 35%;
+            }
+            .btn1 {
+                // outline: none;
+                padding: 0;
+                top: 60%;
+                left: 30%;
+                width: 20%;
+                font-size: 16px;
+            }
+            .btn2 {
+                // outline: none;
+                padding: 0;
+                top: 60%;
+                left: 70%;
+                width: 20%;
+                a {
+                    color: #000;
+                    text-decoration: none;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,150 @@
+@import "media";
+// 页面元素rem计算公式： 页面元素的px / html 字体大小 50
+$htmlFont: 50;
+@media (max-width: 767px) {
+    .floor-left li {
+        width: 50%;
+    }
+}
+
+.content {
+    .container {
+        //暂时
+        // height: 800px;
+        //
+        background-image: linear-gradient(to bottom, #292929, #343A40);
+        .left {
+            // height: 200px;
+            .left-con {
+                img {
+                    width: 100%;
+                }
+                .left-introduce {
+                    overflow: hidden;
+                    margin-top: 30px;
+                    border: 1px solid #ccc;
+                    // height: 300px;
+                    h4 {
+                        font-size: 24rem/$htmlFont;
+                        color: #ccc;
+                    }
+                    p {
+                        margin: 10px;
+                        font-size: 18rem/$htmlFont;
+                        span {
+                            font-weight: 500;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+        .right {
+            // height: 200px
+            h4 {
+                // margin-top: 30px;
+                height: 50px;
+                // padding: 10px 0 20px 0;
+                line-height: 50px;
+                color: #D0E0F0;
+                font-size: 24rem/$htmlFont;
+                border-bottom: 1px solid #ccc;
+            }
+            p {
+                font-size: 16rem/$htmlFont;
+                color: #fff;
+                padding-bottom: 20px;
+                border-bottom: 1px solid #ccc;
+            }
+            // tab栏
+            .tab {
+                border-bottom: 1px solid #ccc;
+                padding-bottom: 30px;
+                .tab_list {
+                    height: 39px;
+                    // border: 1px solid #ccc;
+                    // background-color: #f1f1f1;
+                    // border-radius: 10px;
+                    li {
+                        float: left;
+                        height: 39px;
+                        line-height: 39px;
+                        padding: 0 20px;
+                        text-align: center;
+                        cursor: pointer;
+                        border-radius: 10px;
+                        font-weight: 500;
+                        font-size: 16rem/$htmlFont;
+                    }
+                    .current {
+                        background-color: #ccc;
+                        color: #fff;
+                    }
+                }
+                .tab_con {
+                    .select1,
+                    .select2,
+                    .select3 {
+                        button {
+                            width: 80px;
+                            height: 40px;
+                            text-align: center;
+                            line-height: 30px;
+                            padding: 5px;
+                            margin: 5px;
+                            border: 1px solid #ccc;
+                            background: transparent;
+                            color: #9CDCFE;
+                            font-size: 18rem/$htmlFont;
+                        }
+                    }
+                }
+            }
+            .item {
+                display: none;
+            }
+            .leaving {
+                h4 {
+                    height: 50px;
+                    line-height: 50px;
+                    color: #D0E0F0;
+                    font-size: 24rem/$htmlFont;
+                    border: none;
+                }
+                textarea {
+                    font-size: 18px;
+                    width: 100%;
+                    height: 100px;
+                    // border: 1px solid #ccc;
+                    outline: none;
+                    resize: none;
+                    padding: 20px;
+                }
+                button {
+                    margin-top: 20px !important;
+                    display: block;
+                    margin: 0 auto;
+                    width: 150px;
+                    height: 30px;
+                    border-radius: 30px;
+                }
+                ul {
+                    margin-top: 50px;
+                }
+                li {
+                    width: 100%;
+                    padding: 5px;
+                    color: #9CDCFE;
+                    border: 1px solid #ccc;
+                    border-radius: 10px;
+                    padding: 0 20px;
+                    font-size: 14px;
+                    margin: 15px 0;
+                }
+                li a {
+                    float: right;
+                }
+            }
+        }
+    }
+}

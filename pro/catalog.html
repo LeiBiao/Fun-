@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>在线动画 动漫下载 - FUN动漫!
+    </title>
+    <!-- 网站说明 -->
+    <meta name="description" content="在线动画,动漫下载,FUN动漫!" />
+    <!-- 关键字 -->
+    <meta name="keywords" content="FUN动漫专注于资源收集整理 海量的有效的高质量的动漫资源下载 动漫百度网盘下载" />
+
+    <!-- 引入favicon图标 -->
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_2018484_90glirncaj.css" />
+    <!-- 引入动画 -->
+    <link rel="stylesheet" href="./css/animate.css">
+    <!-- 引入boot样式 -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <!-- 引入我们初始化样式文件 -->
+    <link rel="stylesheet" href="./css/base.css">
+    <!-- 引入我们公共的样式文件 -->
+    <link rel="stylesheet" href="./css/common.css">
+
+    <!-- 引入主样式 -->
+    <link rel="stylesheet" href="./css/catalog.css">
+    <!-- 引入js -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="container">
+            <!-- logo -->
+            <a href="index.html" title="FUN动漫">
+                <div class="logo">
+                    <h3>FUN动漫</h3>
+                </div>
+            </a>
+
+            <!-- 登陆 -->
+            <div class="into mr-sm-0">
+                <a href="./login.html"> <i class="icon iconfont iconbussiness-man" title="用户"></i></a>
+                <a href="#"><i class="icon iconfont iconfavorites-fill" title="收藏"></i></a>
+                <a href="#"><i class="icon iconfont iconall-fill" title="频道"></i></a>
+                <a href="#"><i class="icon iconfont iconhistory" title="历史"></i></a>
+            </div>
+        </div>
+    </header>
+    <!-- 导航栏 -->
+
+    <div class="nav">
+        <div class="container">
+            <div class="row tab_list">
+                <ul class="col-md-9">
+                    <li> <a href="index.html">首页 </a> </li>
+                    <li> <a href="catalog.html">目录 </a> </li>
+                    <li> <a href="new.html">每日推荐</a> </li>
+                    <li> <a href="new.html">最近更新</a> </li>
+                    <li> <a href="loading.html">排行榜</a> </li>
+                </ul>
+                <!-- 搜索 -->
+                <div class="col-lg-3 d-none d-md-block search ">
+                    <input type="text" placeholder="请输入关键字">
+                    <i class="icon iconfont iconsearch"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="catalog">
+        <div class="container ">
+            <ul class="search-list">
+                <li>
+                    <span>地区:</span>
+                    <a href="#">全部</a>
+                    <a href="#">日本</a>
+                    <a href="#">中国</a>
+                    <a href="#">欧美</a>
+                </li>
+                <li>
+                    <span>版本:</span>
+                    <a href="#">全部</a>
+                    <a href="#">TV</a>
+                    <a href="#">剧场版</a>
+                    <a href="#">OVA</a>
+                </li>
+                <li>
+                    <span>首字母检索:</span>
+                    <a href="#">a</a>
+                    <a href="#">b</a>
+                    <a href="#">c</a>
+                    <a href="#">d</a>
+                    <a href="#">e</a>
+                    <a href="#">f</a>
+                    <a href="#">g</a>
+                    <a href="#">h</a>
+                    <a href="#">i</a>
+                    <a href="#">j</a>
+                    <a href="#">k</a>
+                    <a href="#">l</a>
+                    <a href="#">m</a>
+                    <a href="#">n</a>
+                    <a href="#">o</a>
+                    <a href="#">p</a>
+                    <a href="#">q</a>
+                    <a href="#">r</a>
+                    <a href="#">s</a>
+                    <a href="#">t</a>
+                    <a href="#">u</a>
+                    <a href="#">v</a>
+                    <a href="#">w</a>
+                    <a href="#">x</a>
+                    <a href="#">y</a>
+                    <a href="#">z</a>
+                </li>
+                <li>
+                    <span>状态:</span>
+                    <a href="#">全部</a>
+                    <a href="#">连载</a>
+                    <a href="#">完结</a>
+                </li>
+                <li>
+                    <span>类型:</span>
+                    <a href="#">全部</a>
+                    <a href="#">搞笑</a>
+                    <a href="#">热血</a>
+                    <a href="#">校园</a>
+                    <a href="#">爱情</a>
+                    <a href="#">魔法</a>
+                    <a href="#">玄幻</a>
+                    <a href="#">机甲</a>
+                    <a href="#">游戏</a>
+                    <a href="#">血腥</a>
+                    <a href="#">犯罪</a>
+                    <a href="#">萝莉</a>
+                    <a href="#">教育</a>
+                    <a href="#">美少女</a>
+                    <a href="#">泡面番</a>
+                </li>
+                <li>
+                    <span>排序:</span>
+                    <a href="#">更新时间</a>
+                    <a href="#">名称</a>
+                    <a href="#">完结</a>
+                    <a href="#">点击量</a>
+                </li>
+            </ul>
+            <div class="search-page">
+                <ul>
+                    <li>首页</li>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li>尾页</li>
+                </ul>
+            </div>
+            <div class="list-li mt-2">
+                <div class="row">
+                    <div class="left col-sm-3 col-lg-2">
+                        <a href="#"> <img src="./upload/数码宝贝.jpg" alt=""></a>
+                    </div>
+                    <div class="right col-sm-9 col-lg-9 pl-2">
+                        <h4>数码宝贝大冒险</h4>
+                        <ul>
+                            <li><span>动画种类：</span>TV</li>
+                            <li class="d-none d-lg-block"><span>原话名称：</span>デジモンアドベンチャー</li>
+                            <li><span>其他名称：</span>数码兽大冒险</li>
+                            <li class="d-none d-lg-block"><span>首播时间：</span>2020-04-05</li>
+                            <li><span>播放状态：</span>连载</li>
+                            <li><span>剧情类型：</span>奇幻 冒险 励志 战斗</li>
+                            <li class="d-none d-md-block"><span>制作公司：</span>東映動画</li>
+                        </ul>
+                        <div class="introduce"><span>简介：</span>TV动画「数码宝贝大冒险」完全新作动画正式公开，确定将从2020年4月起开播，主角为小学五年级的八神太一和亚古兽。 「数码宝贝」系列在2019年迎来了20周年纪念，而此次的新作动画就是作为其总结而诞生的。本次的新作动画将从2020年以首都为中心爆发大规模网络故障开始，居住在东京近郊、准备参加夏令营的小学五年级生·八神太一，在得知母亲和妹妹搭乘了无法停止的电车后，想要帮助她们的太一在前往涩谷时进入了网络对面的数字世界，与其他被选中的孩子们一起开始了这场未知的冒险
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="list-li mt-2">
+                <div class="row">
+                    <div class="left col-sm-3 col-lg-2">
+                        <a href="#"> <img src="./upload/数码宝贝.jpg" alt=""></a>
+                    </div>
+                    <div class="right col-sm-9 col-lg-9 pl-2">
+                        <h4>数码宝贝大冒险</h4>
+                        <ul>
+                            <li><span>动画种类：</span>TV</li>
+                            <li class="d-none d-lg-block"><span>原话名称：</span>デジモンアドベンチャー</li>
+                            <li><span>其他名称：</span>数码兽大冒险</li>
+                            <li class="d-none d-lg-block"><span>首播时间：</span>2020-04-05</li>
+                            <li><span>播放状态：</span>连载</li>
+                            <li><span>剧情类型：</span>奇幻 冒险 励志 战斗</li>
+                            <li class="d-none d-md-block"><span>制作公司：</span>東映動画</li>
+
+                        </ul>
+                        <div class="introduce"><span>简介：</span>TV动画「数码宝贝大冒险」完全新作动画正式公开，确定将从2020年4月起开播，主角为小学五年级的八神太一和亚古兽。 「数码宝贝」系列在2019年迎来了20周年纪念，而此次的新作动画就是作为其总结而诞生的。本次的新作动画将从2020年以首都为中心爆发大规模网络故障开始，居住在东京近郊、准备参加夏令营的小学五年级生·八神太一，在得知母亲和妹妹搭乘了无法停止的电车后，想要帮助她们的太一在前往涩谷时进入了网络对面的数字世界，与其他被选中的孩子们一起开始了这场未知的冒险
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="list-li mt-2">
+                <div class="row">
+                    <div class="left col-sm-3 col-lg-2">
+                        <a href="#"> <img src="./upload/数码宝贝.jpg" alt=""></a>
+                    </div>
+                    <div class="right col-sm-9 col-lg-9 pl-2">
+                        <h4>数码宝贝大冒险</h4>
+                        <ul>
+                            <li><span>动画种类：</span>TV</li>
+                            <li class="d-none d-lg-block"><span>原话名称：</span>デジモンアドベンチャー</li>
+                            <li><span>其他名称：</span>数码兽大冒险</li>
+                            <li class="d-none d-lg-block"><span>首播时间：</span>2020-04-05</li>
+                            <li><span>播放状态：</span>连载</li>
+                            <li><span>剧情类型：</span>奇幻 冒险 励志 战斗</li>
+                            <li class="d-none d-md-block"><span>制作公司：</span>東映動画</li>
+
+                        </ul>
+                        <div class="introduce"><span>简介：</span>TV动画「数码宝贝大冒险」完全新作动画正式公开，确定将从2020年4月起开播，主角为小学五年级的八神太一和亚古兽。 「数码宝贝」系列在2019年迎来了20周年纪念，而此次的新作动画就是作为其总结而诞生的。本次的新作动画将从2020年以首都为中心爆发大规模网络故障开始，居住在东京近郊、准备参加夏令营的小学五年级生·八神太一，在得知母亲和妹妹搭乘了无法停止的电车后，想要帮助她们的太一在前往涩谷时进入了网络对面的数字世界，与其他被选中的孩子们一起开始了这场未知的冒险
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="list-li mt-2">
+                <div class="row">
+                    <div class="left col-sm-3 col-lg-2">
+                        <a href="#"> <img src="./upload/数码宝贝.jpg" alt=""></a>
+                    </div>
+                    <div class="right col-sm-9 col-lg-9 pl-2">
+                        <h4>数码宝贝大冒险</h4>
+                        <ul>
+                            <li><span>动画种类：</span>TV</li>
+                            <li class="d-none d-lg-block"><span>原话名称：</span>デジモンアドベンチャー</li>
+                            <li><span>其他名称：</span>数码兽大冒险</li>
+                            <li class="d-none d-lg-block"><span>首播时间：</span>2020-04-05</li>
+                            <li><span>播放状态：</span>连载</li>
+                            <li><span>剧情类型：</span>奇幻 冒险 励志 战斗</li>
+                            <li class="d-none d-md-block"><span>制作公司：</span>東映動画</li>
+
+                        </ul>
+                        <div class="introduce"><span>简介：</span>TV动画「数码宝贝大冒险」完全新作动画正式公开，确定将从2020年4月起开播，主角为小学五年级的八神太一和亚古兽。 「数码宝贝」系列在2019年迎来了20周年纪念，而此次的新作动画就是作为其总结而诞生的。本次的新作动画将从2020年以首都为中心爆发大规模网络故障开始，居住在东京近郊、准备参加夏令营的小学五年级生·八神太一，在得知母亲和妹妹搭乘了无法停止的电车后，想要帮助她们的太一在前往涩谷时进入了网络对面的数字世界，与其他被选中的孩子们一起开始了这场未知的冒险
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="list-li mt-2">
+                <div class="row">
+                    <div class="left col-sm-3 col-lg-2">
+                        <a href="#"> <img src="./upload/数码宝贝.jpg" alt=""></a>
+                    </div>
+                    <div class="right col-sm-9 col-lg-9 pl-2">
+                        <h4>数码宝贝大冒险</h4>
+                        <ul>
+                            <li><span>动画种类：</span>TV</li>
+                            <li class="d-none d-lg-block"><span>原话名称：</span>デジモンアドベンチャー</li>
+                            <li><span>其他名称：</span>数码兽大冒险</li>
+                            <li class="d-none d-lg-block"><span>首播时间：</span>2020-04-05</li>
+                            <li><span>播放状态：</span>连载</li>
+                            <li><span>剧情类型：</span>奇幻 冒险 励志 战斗</li>
+                            <li class="d-none d-md-block"><span>制作公司：</span>東映動画</li>
+
+                        </ul>
+                        <div class="introduce"><span>简介：</span>TV动画「数码宝贝大冒险」完全新作动画正式公开，确定将从2020年4月起开播，主角为小学五年级的八神太一和亚古兽。 「数码宝贝」系列在2019年迎来了20周年纪念，而此次的新作动画就是作为其总结而诞生的。本次的新作动画将从2020年以首都为中心爆发大规模网络故障开始，居住在东京近郊、准备参加夏令营的小学五年级生·八神太一，在得知母亲和妹妹搭乘了无法停止的电车后，想要帮助她们的太一在前往涩谷时进入了网络对面的数字世界，与其他被选中的孩子们一起开始了这场未知的冒险
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="list-li mt-2">
+                <div class="row">
+                    <div class="left col-sm-3 col-lg-2">
+                        <a href="#"> <img src="./upload/数码宝贝.jpg" alt=""></a>
+                    </div>
+                    <div class="right col-sm-9 col-lg-9 pl-2">
+                        <h4>数码宝贝大冒险</h4>
+                        <ul>
+                            <li><span>动画种类：</span>TV</li>
+                            <li class="d-none d-lg-block"><span>原话名称：</span>デジモンアドベンチャー</li>
+                            <li><span>其他名称：</span>数码兽大冒险</li>
+                            <li class="d-none d-lg-block"><span>首播时间：</span>2020-04-05</li>
+                            <li><span>播放状态：</span>连载</li>
+                            <li><span>剧情类型：</span>奇幻 冒险 励志 战斗</li>
+                            <li class="d-none d-md-block"><span>制作公司：</span>東映動画</li>
+
+                        </ul>
+                        <div class="introduce"><span>简介：</span>TV动画「数码宝贝大冒险」完全新作动画正式公开，确定将从2020年4月起开播，主角为小学五年级的八神太一和亚古兽。 「数码宝贝」系列在2019年迎来了20周年纪念，而此次的新作动画就是作为其总结而诞生的。本次的新作动画将从2020年以首都为中心爆发大规模网络故障开始，居住在东京近郊、准备参加夏令营的小学五年级生·八神太一，在得知母亲和妹妹搭乘了无法停止的电车后，想要帮助她们的太一在前往涩谷时进入了网络对面的数字世界，与其他被选中的孩子们一起开始了这场未知的冒险
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="search-page">
+                <ul>
+                    <li>首页</li>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li>尾页</li>
+                </ul>
+            </div>
+        </div>
+
+
+    </section>
+    <!-- 尾部 -->
+    <footer>
+        <div class="container bg-dark">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12 left">
+                    <div class="row d-flex justify-content-around">
+                        <ul>
+                            <li>关于我们</li>
+                            <li>联系我们</li>
+                            <li>用户协议</li>
+                        </ul>
+                        <ul>
+                            <li>买家帮助</li>
+                            <li>新手指南</li>
+                            <li>服务保障</li>
+                        </ul>
+                        <ul>
+                            <li>买家帮助</li>
+                            <li>新手指南</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 left">
+                    <div class="row d-flex justify-content-around">
+                        <ul>
+                            <li>帮助中心</li>
+                            <li>高级弹幕</li>
+                            <li>活动专题页</li>
+                        </ul>
+                        <ul>
+                            <li>侵权申诉</li>
+                            <li>新手指南</li>
+                            <li>活动中心</li>
+                        </ul>
+                        <ul>
+                            <li>用户反馈论坛</li>
+                            <li>新手指南</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 right">
+                    <a href="">
+                        <i class="icon iconfont icondownload"></i>
+                        <p>客户端下载</p>
+                    </a>
+                    <a href="">
+                        <i class="icon iconfont iconweibo"></i>
+                        <p>新浪微博</p>
+                    </a>
+                    <a href="">
+                        <i class="icon iconfont iconweixin"></i>
+                        <p>官方微信</p>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

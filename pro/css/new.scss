@@ -1,0 +1,41 @@
+@import "media";
+// 页面元素rem计算公式： 页面元素的px / html 字体大小 50
+$htmlFont: 50;
+.new {
+    .container {
+        background-image: linear-gradient(to bottom, #292929, #343A40);
+        padding: 20px;
+        .search-page {
+            ul {
+                // border: solid 1px #000;
+                height: 35px;
+                width: 550px;
+                margin: 0 auto;
+                li {
+                    float: left;
+                    width: 45px;
+                    height: 100%;
+                    border: solid 1px #ccc;
+                    text-align: center;
+                    line-height: 35px;
+                    color: #fff;
+                    font-size: 16rem/$htmlFont;
+                    margin-right: 20px;
+                    cursor: pointer;
+                    border-radius: 5px;
+                    img {
+                        width: 100%;
+                    }
+                    &:hover {
+                        background: #ccc;
+                    }
+                }
+            }
+        }
+        .dm-list {
+            li {
+                margin-top: 20px;
+            }
+        }
+    }
+}

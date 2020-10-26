@@ -1,0 +1,215 @@
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 50px;
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 21.33333px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 25.6px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 26.66667px;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 27.6px;
+  }
+}
+
+@media screen and (min-width: 424px) {
+  html {
+    font-size: 28.26667px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 540px) {
+  html {
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .floor-left li {
+    width: 50%;
+  }
+}
+
+.content .container {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#292929), to(#343A40));
+  background-image: linear-gradient(to bottom, #292929, #343A40);
+}
+
+.content .container .left .left-con img {
+  width: 100%;
+}
+
+.content .container .left .left-con .left-introduce {
+  overflow: hidden;
+  margin-top: 30px;
+  border: 1px solid #ccc;
+}
+
+.content .container .left .left-con .left-introduce h4 {
+  font-size: 0.48rem;
+  color: #ccc;
+}
+
+.content .container .left .left-con .left-introduce p {
+  margin: 10px;
+  font-size: 0.36rem;
+}
+
+.content .container .left .left-con .left-introduce p span {
+  font-weight: 500;
+  color: #fff;
+}
+
+.content .container .right h4 {
+  height: 50px;
+  line-height: 50px;
+  color: #D0E0F0;
+  font-size: 0.48rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.content .container .right p {
+  font-size: 0.32rem;
+  color: #fff;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.content .container .right .tab {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 30px;
+}
+
+.content .container .right .tab .tab_list {
+  height: 39px;
+}
+
+.content .container .right .tab .tab_list li {
+  float: left;
+  height: 39px;
+  line-height: 39px;
+  padding: 0 20px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 0.32rem;
+}
+
+.content .container .right .tab .tab_list .current {
+  background-color: #ccc;
+  color: #fff;
+}
+
+.content .container .right .tab .tab_con .select1 button,
+.content .container .right .tab .tab_con .select2 button,
+.content .container .right .tab .tab_con .select3 button {
+  width: 80px;
+  height: 40px;
+  text-align: center;
+  line-height: 30px;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  background: transparent;
+  color: #9CDCFE;
+  font-size: 0.36rem;
+}
+
+.content .container .right .item {
+  display: none;
+}
+
+.content .container .right .leaving h4 {
+  height: 50px;
+  line-height: 50px;
+  color: #D0E0F0;
+  font-size: 0.48rem;
+  border: none;
+}
+
+.content .container .right .leaving textarea {
+  font-size: 18px;
+  width: 100%;
+  height: 100px;
+  outline: none;
+  resize: none;
+  padding: 20px;
+}
+
+.content .container .right .leaving button {
+  margin-top: 20px !important;
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 30px;
+  border-radius: 30px;
+}
+
+.content .container .right .leaving ul {
+  margin-top: 50px;
+}
+
+.content .container .right .leaving li {
+  width: 100%;
+  padding: 5px;
+  color: #9CDCFE;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 0 20px;
+  font-size: 14px;
+  margin: 15px 0;
+}
+
+.content .container .right .leaving li a {
+  float: right;
+}
+/*# sourceMappingURL=content.css.map */

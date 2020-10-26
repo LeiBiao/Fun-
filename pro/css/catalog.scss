@@ -1,0 +1,105 @@
+@import "media";
+// 页面元素rem计算公式： 页面元素的px / html 字体大小 50
+$htmlFont: 50;
+@media (max-width:575px) {
+    .list-li .left {
+        width: 25%;
+    }
+    .list-li .right {
+        width: 75%;
+    }
+}
+
+.catalog {
+    .container {
+        background-image: linear-gradient(to bottom, #292929, #343A40);
+        padding: 20px;
+        .search-list {
+            li {
+                padding: 0 20px;
+                height: 40px;
+                line-height: 40px;
+                width: 100%;
+                border: solid 1px #ccc;
+                span {
+                    font-size: 16rem/$htmlFont;
+                    color: #fff;
+                }
+                a {
+                    text-decoration: underline;
+                    height: 100%;
+                    padding: 0 10px;
+                    font-size: 16rem/$htmlFont;
+                    color: #fff;
+                    border-right: 1px solid #fff;
+                    &:hover {
+                        color: #c81623
+                    }
+                }
+            }
+        }
+        .search-page {
+            ul {
+                // border: solid 1px #000;
+                height: 35px;
+                width: 550px;
+                margin: 0 auto;
+                li {
+                    float: left;
+                    width: 45px;
+                    height: 100%;
+                    border: solid 1px #ccc;
+                    text-align: center;
+                    line-height: 35px;
+                    color: #fff;
+                    font-size: 16rem/$htmlFont;
+                    margin-right: 20px;
+                    cursor: pointer;
+                    border-radius: 5px;
+                    &:hover {
+                        background: #ccc;
+                    }
+                }
+            }
+        }
+        .list-li {
+            margin-bottom: 30px;
+            h4 {
+                font-size: 20rem/$htmlFont;
+                color: #fff;
+                margin-bottom: 15px;
+            }
+            .left {
+                padding: 0;
+                text-align: center;
+            }
+            .right {
+                padding-left: 35px !important;
+                // background: #fff;
+                ul {
+                    li {
+                        float: left;
+                        height: 30px;
+                        line-height: 30px;
+                        width: 300px;
+                        // background: #f0f;
+                        font-size: 16rem/$htmlFont;
+                        color: #fff;
+                    }
+                }
+                .introduce {
+                    float: left;
+                    font-size: 16rem/$htmlFont;
+                    color: #fff;
+                    text-overflow: -o-ellipsis-lastline;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                }
+            }
+        }
+    }
+}
